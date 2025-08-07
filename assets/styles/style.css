@@ -1,0 +1,108 @@
+@import "tailwind.css";
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dancing+Script:wght@400..700&family=Hammersmith+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Onest:wght@100..900&family=Rammetto+One&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dancing+Script:wght@400..700&family=Hammersmith+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Onest:wght@100..900&family=Rammetto+One&family=Rowdies:wght@300;400;700&family=Satisfy&display=swap');
+
+body {
+    margin: 0;
+}
+
+.navBar {
+    background-color: #D9D9D9;
+}
+
+.titDiv {
+    position: relative;
+    display: inline-block;
+}
+
+.subHead_1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    margin-left: 150px;
+    /* color: #D6628D; */
+    color: #F7567C;
+    /* color: #B84C65; */
+}
+
+.subHead_2 {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 288px;
+    position: absolute;
+    margin: 0;
+    top: 50px;
+}
+
+.profilePic {
+    margin-top: 0px;
+    margin-left: 900px;
+    position: absolute;
+    border-radius: 600px 500px;
+}
+
+.des {
+    margin-top: 160px;
+    margin-left: 100px;
+}
+
+.hiTit{
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tit_1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.tit_2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #f86789;
+}
+
+hr{
+    background-color: black;
+    padding: 1px;
+    width: 1100px;
+}
+
+.introduct{
+    display: flex;
+}
+
+.box{
+    margin-top: 150px;
+    margin-left: 100px;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+}
+
+.introDiv{
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.introImg{
+    position: absolute;
+    margin: 0;
+    top: 240px;
+    margin-left: 200px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.decIntro{
+    margin-top: 400px;
+    margin-left: 800px;
+}
