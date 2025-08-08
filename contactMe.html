@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 </head>
+
 <body>
-    
+
     <header>
-        <nav class="navBar">
+        <nav class="dark:bg-gray-900">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-[#F7567C]">Hiranya</span>
+                    <span
+                        class="self-center text-2xl font-semibold whitespace-nowrap dark:text-[#F7567C]">Hiranya</span>
                 </a>
                 <button data-collapse-toggle="navbar-solid-bg" type="button"
                     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -30,26 +33,156 @@
                     <ul
                         class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
                         <li>
-                            <a href="#" class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-black"
+                            <a href="#" class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-white"
                                 aria-current="page">Home</a>
                         </li>
                         <li>
+                            <a href="#about"
+                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-white">About</a>
+                        </li>
+                        <li>
                             <a href="./skills.html"
-                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-black">Skills</a>
+                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-white">Skills</a>
                         </li>
                         <li>
                             <a href="./projects.html"
-                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-black">Projects</a>
+                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-white">Projects</a>
                         </li>
                         <li>
                             <a href="./contactMe.html"
-                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-black">Contact
-                                Me</a>
+                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-white">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+    <!-- ---------------------Head--------------------- -->
+    <div class="contactDiv">
+        <h1 class="headTit_1">CONTACT</h1>
+        <h1 class="headTit_2">Get In Touch</h1>
+    </div>
+
+    <hr>
+
+    <div class=" contactDiv flex flex-col md:flex-row gap-4 px-6 py-8">
+        <!-- Contact Details Section -->
+        <div
+            class="w-full md:w-1/2 bg-[#1E2A38] text-gray-300 border border-gray-700 shadow-md rounded-lg p-8 contactDetails">
+            <h2 class="text-xl font-semibold text-pink-400 mb-4">Contact details</h2>
+            <address
+                class="bg-[#2D3B4E] p-6 rounded-lg border border-gray-600 not-italic grid grid-cols-2 gap-y-6 shadow-md">
+                <div class="space-y-6 text-pink-400 leading-loose hidden sm:block">
+                    <div class="flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16 12H8m0 0v8m0-8V4m8 8v8"></path>
+                        </svg>
+                        <span class="text-xs">Name</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16 12H8m8 0l-4-4m0 0l-4 4m4-4v8">
+                            </path>
+                        </svg>
+                        <span class="text-xs">Email</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 10l1-1m0 0l7-7 7 7m-8 6v6">
+                            </path>
+                        </svg>
+                        <span class="text-xs">Phone</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 11c-1.657 0-3 1.343-3 3v3h6v-3c0-1.657-1.343-3-3-3zM12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z">
+                            </path>
+                        </svg>
+                        <span class="text-xs">Location</span>
+                    </div>
+                </div>
+                <div id="contact-details" class="space-y-6 text-gray-300 text-xs leading-loose">
+                    <div>Hiranya Mendis</div>
+                    <div>hiranyamendis52@gmail.com</div>
+                    <div>0775257159</div>
+                    <div>6A, Rahal Mawatha</div>
+                </div>
+            </address>
+        </div>
+
+        <!-- Form Section -->
+        <div class="md:w-1/2">
+            <form class="space-y-5 contactDetails">
+                <div class="ml-[14rem]">
+                    <label for="first-name" class="block mb-2 text-xs font-medium text-gray-900 dark:text-white">First
+                        Name</label>
+                    <input type="text" id="first-name"
+                        class="w-full bg-[#f1f1f1] border border-gray-300 text-black text-xs rounded-lg focus:ring-pink-400 focus:border-pink-400 p-2 shadow-md"
+                        placeholder="Your first name" required />
+                </div>
+
+                <div class="ml-[14rem]">
+                    <label for="email"
+                        class="block mb-2 text-xs font-medium text-gray-900 dark:text-white">Email</label>
+                    <input type="email" id="email"
+                        class="w-full bg-[#f1f1f1] border border-gray-300 text-black text-xs rounded-lg focus:ring-pink-400 focus:border-pink-400 p-2 shadow-md"
+                        placeholder="name@example.com" required />
+                </div>
+
+                <div class="ml-[14rem]">
+                    <label for="subject"
+                        class="block mb-2 text-xs font-medium text-gray-900 dark:text-white">Subject</label>
+                    <input type="text" id="subject"
+                        class="w-full bg-[#f1f1f1] border border-gray-300 text-black text-xs rounded-lg focus:ring-pink-400 focus:border-pink-400 p-2 shadow-md"
+                        placeholder="Subject" required />
+                </div>
+
+                <div class="ml-[8rem]">
+                    <label for="message"
+                        class="block mb-2 text-xs font-medium text-gray-900 dark:text-white">Message</label>
+                    <textarea id="message" rows="4"
+                        class="w-1/2 bg-[#f1f1f1] border border-gray-300 text-black text-xs rounded-lg focus:ring-pink-400 focus:border-pink-400 p-2 shadow-md"
+                        placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <button type="submit"
+                    class="text-white bg-pink-600 hover:bg-pink-700 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-xs px-5 py-2 text-center mx-auto block shadow-md">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

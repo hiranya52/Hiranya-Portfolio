@@ -4,10 +4,7 @@
 
 body {
     margin: 0;
-}
-
-.navBar {
-    background-color: #D9D9D9;
+    background-color: rgb(229, 250, 250);
 }
 
 .titDiv {
@@ -72,83 +69,38 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* hr{
-    background-color: black;
-    padding: 1px;
-    width: 1100px;
-} */
-
-.introduct{
-    display: flex;
-}
-
-.box{
-    margin-top: 150px;
-    margin-left: 100px;
-    background-color: black;
-    width: 400px;
-    height: 400px;
-}
-
-.introDiv{
-    margin-top: 100px;
+.ContactDiv {
     position: relative;
     display: inline-block;
 }
 
-.introImg{
-    position: absolute;
-    margin: 0;
-    top: 240px;
-    margin-left: 200px;
-    width: 500px;
-    border: 2px solid black;
-}
-
-.decIntro{
-    margin-top: 250px;
-    margin-left: 280px;
-}
-
-.abtMeTitDiv{
-    background-color: #D9D9D9;
-    color: #F7567C;
-    width: 400px;
-    height: 100px;
-    text-align: center;
-    margin-left: 80px;
-    margin-bottom: 40px;
-}
-
-.abtMeTit{
+.headTit_1 {
+    color: rgba(0, 0, 0, 0.192);
     font-family: "Hammersmith One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 80px;
+    font-size: 100px;
+    margin: 0;
+    margin-left:525px;
+    position: relative;
 }
 
-.abtMePara{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    text-align: center;
+.headTit_2 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    top: 18.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F7567C;
+    white-space: nowrap;
 }
 
-.progDiv{
-    background-color: #D9D9D9;
-    margin-top: 200px;
-    padding: 200px;
-    width: 1000px;
-    margin-left: 240px;
-    border-radius: 40px;
-    border: 0.5px solid gray;
-}
-
-.progBar{
-    width: 700px;
-    margin-bottom: 50px;
-}
-
-footer{
-    margin-top: 200px;
-    background-color: black;
+.boxSize{
+    width: 1420px;
+    margin-left: 25px;
+    border-radius: 20px;
 }

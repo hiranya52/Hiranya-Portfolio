@@ -7,16 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 </head>
 
 <body>
 
+    <!-- -----------------------Nav Bar----------------------- -->
+
     <header>
-        <nav class="navBar">
+        <nav class="dark:bg-gray-900">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-[#F7567C]">Hiranya</span>
+                    <span
+                        class="self-center text-2xl font-semibold whitespace-nowrap dark:text-[#F7567C]">Hiranya</span>
                 </a>
                 <button data-collapse-toggle="navbar-solid-bg" type="button"
                     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -32,21 +35,24 @@
                     <ul
                         class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
                         <li>
-                            <a href="#" class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-black"
+                            <a href="#" class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-white"
                                 aria-current="page">Home</a>
                         </li>
                         <li>
-                            <a href="./skills.html"
-                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-black">Skills</a>
+                            <a href="#about"
+                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-white">About</a>
                         </li>
                         <li>
-                            <a href="./projects.html"
-                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-black">Projects</a>
+                            <a href="./skills.html"
+                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-white">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#projects"
+                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-white">Projects</a>
                         </li>
                         <li>
                             <a href="./contactMe.html"
-                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-black">Contact
-                                Me</a>
+                                class="block py-2 px-3 md:p-0 text-black hover:text-[#F7567C] dark:text-white">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -81,75 +87,223 @@
         <hr>
     </div>
 
-    <div class="introduct">
+    <!-- -----------------------About----------------------- -->
 
-        <div class="introDiv">
-            <div class="box"></div>
-            <div class="introImg"><img src="./assets/img/introPic.webp" alt=""></div>
-        </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section class="bg-white dark:bg-gray-900 py-20 px-6 md:px-24 boxSize" id="about">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-16">About Me</h2>
 
-        <div class="decIntro">
-            <div>
-                <div class="abtMeTitDiv">
-                    <h1 class="abtMeTit">About Me</h1>
+            <div class="flex flex-col md:flex-row gap-10 justify-center items-stretch">
+
+                <!-- Who I Am -->
+                <div
+                    class="bg-blue-500 dark:bg-blue-800 p-8 rounded-xl shadow-md flex-1 transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                    <h3 class="text-lg md:text-xl font-bold text-pink-200 dark:text-[#F7567C] mb-3">Who I Am</h3>
+                    <p class="text-white dark:text-gray-200 text-sm md:text-base font-medium">
+                        I'm Hiranya Mendis, 18 years old, currently studying at iCET, following the (ICP) Higher Diploma
+                        in Software Engineering.
+                        I'm passionate about building real-world applications and constantly growing as a developer.
+                    </p>
                 </div>
-            </div>
-            <div>
-                <p class="abtMePara">Hi! I'm Hiranya Mendis,<br> an 18-year-old student currently studying at iCET, <br>
-                    where I'm pursuing the ICP
-                    Higher Diploma in Software Engineering. <br>I'm passionate about coding and continuously working to
-                    improve my skills in <br>programming, problem-solving, and application development. <br>
 
-                    With a strong interest in becoming a professional software engineer, <br>I'm focused on building
-                    real-world projects, learning modern <br>technologies, and gaining hands-on experience that will
-                    help me <br>
-                    grow in the tech field.</p>
+                <!-- What I Do -->
+                <div
+                    class="bg-blue-500 dark:bg-blue-800 p-8 rounded-xl shadow-md flex-1 transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                    <h3 class="text-lg md:text-xl font-bold text-pink-200 dark:text-[#F7567C] mb-3">What I Do</h3>
+                    <p class="text-white dark:text-gray-200 text-sm md:text-base font-medium">
+                        I specialize in Java programming and GUI development using Java Swing. I’ve built projects like
+                        a Student Management System and a Defense Simulation System.
+                        I enjoy problem-solving, UI/UX design, and learning modern frameworks and tools.
+                    </p>
+                </div>
+
+                <!-- My Goals -->
+                <div
+                    class="bg-blue-500 dark:bg-blue-800 p-8 rounded-xl shadow-md flex-1 transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                    <h3 class="text-lg md:text-xl font-bold text-pink-200 dark:text-[#F7567C] mb-3">My Goals</h3>
+                    <p class="text-white dark:text-gray-200 text-sm md:text-base font-medium">
+                        My goal is to become a full-stack software engineer, capable of building impactful systems from
+                        front to back.
+                        I'm committed to improving my skills, contributing to innovative projects, and turning ideas
+                        into reality.
+                    </p>
+                </div>
+
             </div>
         </div>
+    </section>
+
+
+
+
+
+<!-- -----------------------------Skills---------------------------------- -->
+
+
+
+
+
+
+
+<!-- -----------------------------Projects---------------------------------- -->
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<section class="bg-white dark:bg-gray-900 py-20 px-6 md:px-20 boxSize" id="projects">
+
+<div class="text-center mb-16">
+    <h1 class="text-4xl md:text-4xl font-bold">
+      <span class="text-white">My</span>
+      <span class="text-pink-500">Projects</span>
+    </h1>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    
+    
+    <div class="bg-white border border-gray-200 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 dark:bg-gray-800 dark:border-gray-700 flex flex-col">
+      <a href="#">
+        <img class="rounded-t-lg w-full h-48 object-cover" src="./assets/img/sriLanka.jpg" alt="Explore Sri Lanka" />
+      </a>
+      <div class="p-5 flex flex-col flex-grow">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Explore Sri Lanka</h5>
+        <p class="mb-4 text-gray-700 dark:text-gray-400 flex-grow">🇱🇰 A visually appealing website showcasing the beauty and culture of Sri Lanka, built with HTML and CSS.</p>
+        <a href="https://hiranya52.github.io/Srilanka/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 max-w-max">
+          Read more
+          <svg class="w-3.5 h-3.5 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
+        </a>
+      </div>
     </div>
 
-    <!-- ----------------PROGRESS DIV---------------- -->
-
-    <div class="progDiv">
-        <!-- ----------------------------- -->
-        <div class="progBar">
-            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 60%"></div>
-            </div>
-        </div>
-        <!-- ----------------------------- -->
-        <!-- ----------------------------- -->
-        <div class="progBar">
-            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 45%"></div>
-            </div>
-        </div>
-        <!-- ----------------------------- -->
-        <!-- ----------------------------- -->
-        <div class="progBar">
-            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 45%"></div>
-            </div>
-        </div>
-        <!-- ----------------------------- -->
-        <!-- ----------------------------- -->
-        <div class="progBar">
-            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 45%"></div>
-            </div>
-        </div>
-        <!-- ----------------------------- -->
+    
+    <div class="bg-white border border-gray-200 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 dark:bg-gray-800 dark:border-gray-700 flex flex-col">
+      <a href="#"><img class="rounded-t-lg w-full h-48 object-cover" src="./assets/img/guessingGame.jpg" alt="Guessing Game" /></a>
+      <div class="p-5 flex flex-col flex-grow">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Guessing Game</h5>
+        <p class="mb-4 text-gray-700 dark:text-gray-400 flex-grow">🎯 A fun number guessing game built with HTML, CSS, and JavaScript, offering instant feedback.</p>
+        <a href="https://hiranya20070502.github.io/Guessing-Game/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 max-w-max">Read more
+          <svg class="w-3.5 h-3.5 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
+        </a>
+      </div>
     </div>
 
+    <!-- Student Management System -->
+    <div class="bg-white border border-gray-200 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 dark:bg-gray-800 dark:border-gray-700 flex flex-col">
+      <a href="#"><img class="rounded-t-lg w-full h-48 object-cover" src="./assets/img/iCETSMS.png" alt="Student Management System" /></a>
+      <div class="p-5 flex flex-col flex-grow">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Student Management System</h5>
+        <p class="mb-4 text-gray-700 dark:text-gray-400 flex-grow">🎓 Java-based system to manage student records, batches, and marks efficiently.</p>
+        <a href="https://github.com/hiranya52/Student-Management-System.git" class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 max-w-max">Read more
+          <svg class="w-3.5 h-3.5 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Pepsi -->
+    <div class="bg-white border border-gray-200 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 dark:bg-gray-800 dark:border-gray-700 flex flex-col">
+      <a href="#"><img class="rounded-t-lg w-full h-48 object-cover" src="./assets/img/pepsiBackgroudPic.jpg" alt="Pepsi" /></a>
+      <div class="p-5 flex flex-col flex-grow">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Refresh With Pepsi</h5>
+        <p class="mb-4 text-gray-700 dark:text-gray-400 flex-grow">🥤 Sleek Pepsi showcase site built with HTML, CSS, and JavaScript for smooth browsing and visual appeal.</p>
+        <a href="https://hiranya52.github.io/pepsi-html-css/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 max-w-max">Read more
+          <svg class="w-3.5 h-3.5 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- World Kindle -->
+    <div class="bg-white border border-gray-200 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 dark:bg-gray-800 dark:border-gray-700 flex flex-col">
+      <a href="#"><img class="rounded-t-lg w-full h-48 object-cover" src="./assets/img/contactUs.jpg" alt="World Kindle" /></a>
+      <div class="p-5 flex flex-col flex-grow">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">World Kindle</h5>
+        <p class="mb-4 text-gray-700 dark:text-gray-400 flex-grow">🌍 Tourism website to inspire global travel. Built with HTML and CSS for stunning visuals and ease of use.</p>
+        <a href="https://hiranya52.github.io/WorldKindle/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 max-w-max">Read more
+          <svg class="w-3.5 h-3.5 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Rare Beauty -->
+    <div class="bg-white border border-gray-200 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 dark:bg-gray-800 dark:border-gray-700 flex flex-col">
+      <a href="#"><img class="rounded-t-lg w-full h-48 object-cover" src="./assets/img/rareBeatyPic.jpg" alt="Rare Beauty Showcase" /></a>
+      <div class="p-5 flex flex-col flex-grow">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rare Beauty Showcase</h5>
+        <p class="mb-4 text-gray-700 dark:text-gray-400 flex-grow">✨ Product showcase built with HTML & CSS, featuring clean layouts, no JavaScript, and a minimalist aesthetic.</p>
+        <a href="https://hiranya52.github.io/rare-beauty-showcase/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 max-w-max">Read more
+          <svg class="w-3.5 h-3.5 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- -----------------------My Services----------------------- -->
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<section class="bg-white dark:bg-gray-900 py-20 px-6 md:px-24 boxSize" id="about">
+    <div class="max-w-7xl mx-auto text-center">
+        <h1 class="text-4xl md:text-4xl font-bold">
+            <span class="text-pink-500">My</span>
+            <span class="text-white">Services</span>
+        </h1><br><br>
+
+        <div class="flex flex-col md:flex-row gap-10 justify-center items-stretch">
+
+
+            <div
+                class="bg-blue-500 dark:bg-blue-800 p-8 rounded-xl shadow-md flex-1 transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                <h3 class="text-lg md:text-xl font-bold text-pink-200 dark:text-[#F7567C] mb-3">Java Application
+                    Development</h3>
+                <p class="text-white dark:text-gray-200 text-sm md:text-base font-medium">
+                    I specialize in building desktop applications using Java and Java Swing. From student management
+                    systems to defense simulations, I create scalable and user-friendly applications with a strong
+                    object-oriented foundation. I focus on clean architecture, modular code, and performance
+                    optimization.
+                </p>
+            </div>
+
+
+            <div
+                class="bg-blue-500 dark:bg-blue-800 p-8 rounded-xl shadow-md flex-1 transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                <h3 class="text-lg md:text-xl font-bold text-pink-200 dark:text-[#F7567C] mb-3">Web Development</h3>
+                <p class="text-white dark:text-gray-200 text-sm md:text-base font-medium">
+                    I design and develop modern, responsive websites using HTML, CSS, JavaScript, and Tailwind CSS.
+                    Whether it’s a personal portfolio or a fully responsive landing page, I ensure great user experience
+                    and clean, professional interfaces optimized for all devices.
+                </p>
+            </div>
+
+
+            <div
+                class="bg-blue-500 dark:bg-blue-800 p-8 rounded-xl shadow-md flex-1 transform transition duration-300 ease-in-out hover:scale-105 cursor-pointer">
+                <h3 class="text-lg md:text-xl font-bold text-pink-200 dark:text-[#F7567C] mb-3">Data Management with
+                    Data Structures</h3>
+                <p class="text-white dark:text-gray-200 text-sm md:text-base font-medium">
+                    I have strong experience managing and organizing data using fundamental data structures like arrays,
+                    linked lists, stacks, and queues. My projects demonstrate the ability to structure and manipulate
+                    data efficiently, ensuring fast and reliable functionality in both frontend and backend logic.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
 
-    <footer>
+
+    <!-- -----------------------------Footer---------------------------------- -->
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer class="dark:bg-gray-900">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
                     <a href="https://flowbite.com/" class="flex items-center">
-                        <img src="./assets/img/myLogo.jpg" class="h-20 me-3" alt="FlowBite Logo" />
+                        <!-- <img src="./assets/img/myLogo.jpg" class="h-20 me-3" alt="FlowBite Logo" /> -->
                     </a>
                     <div> <br>
                         <h2 class="text-2xl font-bold text-white">Hiranya Mendis</h2>
@@ -158,7 +312,8 @@
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase  dark:text-[#F7567C]">Resources</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase  dark:text-[#F7567C]">Resources
+                        </h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
@@ -169,7 +324,8 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-[#F7567C]">Follow us</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-[#F7567C]">Follow us
+                        </h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
@@ -224,7 +380,8 @@
                         </svg>
                         <span class="sr-only">Twitter page</span>
                     </a>
-                    <a href="https://github.com/hiranya52" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <a href="https://github.com/hiranya52"
+                        class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
                         <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             viewBox="0 0 20 20">
                             <path fill-rule="evenodd"
@@ -248,7 +405,7 @@
     </footer>
 
 
-   
+
 
 </body>
 
